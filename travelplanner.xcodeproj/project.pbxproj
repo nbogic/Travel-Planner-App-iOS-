@@ -1,0 +1,426 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7F77E57A20B47A9B00682A15 /* travelVariables.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F77E57920B47A9B00682A15 /* travelVariables.swift */; };
+		7F77E57C20B550BB00682A15 /* travelDiscoverController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F77E57B20B550BB00682A15 /* travelDiscoverController.swift */; };
+		7F77E57E20B5553600682A15 /* newDestination.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F77E57D20B5553600682A15 /* newDestination.swift */; };
+		7F77E58020B5B32500682A15 /* travelMainDiscoverController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F77E57F20B5B32500682A15 /* travelMainDiscoverController.swift */; };
+		7F77E58220B5C56500682A15 /* chinavideo.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 7F77E58120B5B9B300682A15 /* chinavideo.mp4 */; };
+		7F77E58920B7F34300682A15 /* australiavideo.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 7F77E58820B7F33600682A15 /* australiavideo.mp4 */; };
+		7F77E58A20B7F34300682A15 /* vietnamvideo.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 7F77E58320B7F2D900682A15 /* vietnamvideo.mp4 */; };
+		7F77E58B20B7F34300682A15 /* russiavideo.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 7F77E58420B7F2E000682A15 /* russiavideo.mp4 */; };
+		7F77E58C20B7F34300682A15 /* germanyvideo.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 7F77E58520B7F2E800682A15 /* germanyvideo.mp4 */; };
+		7F77E58D20B7F34300682A15 /* brazilvideo.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 7F77E58620B7F2EE00682A15 /* brazilvideo.mp4 */; };
+		7F77E58E20B7F34300682A15 /* dubaivideo.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 7F77E58720B7F2FE00682A15 /* dubaivideo.mp4 */; };
+		7F77E59820BAD05C00682A15 /* travelTblViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F77E59720BAD05C00682A15 /* travelTblViewCell.swift */; };
+		7F77E59C20BAD66F00682A15 /* travelDestinations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F77E59B20BAD66F00682A15 /* travelDestinations.swift */; };
+		7F9C6B7E20B1D3F0004B7968 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F9C6B7D20B1D3F0004B7968 /* AppDelegate.swift */; };
+		7F9C6B8020B1D3F0004B7968 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F9C6B7F20B1D3F0004B7968 /* ViewController.swift */; };
+		7F9C6B8320B1D3F0004B7968 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F9C6B8120B1D3F0004B7968 /* Main.storyboard */; };
+		7F9C6B8620B1D3F0004B7968 /* travelplanner.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7F9C6B8420B1D3F0004B7968 /* travelplanner.xcdatamodeld */; };
+		7F9C6B8820B1D3F1004B7968 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F9C6B8720B1D3F1004B7968 /* Assets.xcassets */; };
+		7F9C6B8B20B1D3F1004B7968 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F9C6B8920B1D3F1004B7968 /* LaunchScreen.storyboard */; };
+		7FCC39AB20B31D6000E8C8B1 /* MainMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FCC39AA20B31D6000E8C8B1 /* MainMenuView.swift */; };
+		7FCC39AD20B41CB300E8C8B1 /* travelPlanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FCC39AC20B41CB300E8C8B1 /* travelPlanView.swift */; };
+		7FCC39AF20B41D1A00E8C8B1 /* travelPlanAddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FCC39AE20B41D1A00E8C8B1 /* travelPlanAddView.swift */; };
+		7FCC39B120B4227700E8C8B1 /* newTrip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FCC39B020B4227700E8C8B1 /* newTrip.swift */; };
+		7FEDB34420B2E4CE00DC3514 /* QuestionnaireViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FEDB34320B2E4CE00DC3514 /* QuestionnaireViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7F77E57920B47A9B00682A15 /* travelVariables.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = travelVariables.swift; sourceTree = "<group>"; };
+		7F77E57B20B550BB00682A15 /* travelDiscoverController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = travelDiscoverController.swift; sourceTree = "<group>"; };
+		7F77E57D20B5553600682A15 /* newDestination.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = newDestination.swift; sourceTree = "<group>"; };
+		7F77E57F20B5B32500682A15 /* travelMainDiscoverController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = travelMainDiscoverController.swift; sourceTree = "<group>"; };
+		7F77E58120B5B9B300682A15 /* chinavideo.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = chinavideo.mp4; sourceTree = "<group>"; };
+		7F77E58320B7F2D900682A15 /* vietnamvideo.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = vietnamvideo.mp4; sourceTree = "<group>"; };
+		7F77E58420B7F2E000682A15 /* russiavideo.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = russiavideo.mp4; sourceTree = "<group>"; };
+		7F77E58520B7F2E800682A15 /* germanyvideo.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = germanyvideo.mp4; sourceTree = "<group>"; };
+		7F77E58620B7F2EE00682A15 /* brazilvideo.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = brazilvideo.mp4; sourceTree = "<group>"; };
+		7F77E58720B7F2FE00682A15 /* dubaivideo.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = dubaivideo.mp4; sourceTree = "<group>"; };
+		7F77E58820B7F33600682A15 /* australiavideo.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = australiavideo.mp4; sourceTree = "<group>"; };
+		7F77E59720BAD05C00682A15 /* travelTblViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = travelTblViewCell.swift; sourceTree = "<group>"; };
+		7F77E59B20BAD66F00682A15 /* travelDestinations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = travelDestinations.swift; sourceTree = "<group>"; };
+		7F9C6B7A20B1D3F0004B7968 /* travelplanner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = travelplanner.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F9C6B7D20B1D3F0004B7968 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7F9C6B7F20B1D3F0004B7968 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7F9C6B8220B1D3F0004B7968 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7F9C6B8520B1D3F0004B7968 /* travelplanner.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = travelplanner.xcdatamodel; sourceTree = "<group>"; };
+		7F9C6B8720B1D3F1004B7968 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7F9C6B8A20B1D3F1004B7968 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7F9C6B8C20B1D3F1004B7968 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7FCC39AA20B31D6000E8C8B1 /* MainMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenuView.swift; sourceTree = "<group>"; };
+		7FCC39AC20B41CB300E8C8B1 /* travelPlanView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = travelPlanView.swift; sourceTree = "<group>"; };
+		7FCC39AE20B41D1A00E8C8B1 /* travelPlanAddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = travelPlanAddView.swift; sourceTree = "<group>"; };
+		7FCC39B020B4227700E8C8B1 /* newTrip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = newTrip.swift; sourceTree = "<group>"; };
+		7FEDB34320B2E4CE00DC3514 /* QuestionnaireViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionnaireViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7F9C6B7720B1D3F0004B7968 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7F9C6B7120B1D3F0004B7968 = {
+			isa = PBXGroup;
+			children = (
+				7F77E58120B5B9B300682A15 /* chinavideo.mp4 */,
+				7F77E58820B7F33600682A15 /* australiavideo.mp4 */,
+				7F77E58320B7F2D900682A15 /* vietnamvideo.mp4 */,
+				7F77E58420B7F2E000682A15 /* russiavideo.mp4 */,
+				7F77E58520B7F2E800682A15 /* germanyvideo.mp4 */,
+				7F77E58620B7F2EE00682A15 /* brazilvideo.mp4 */,
+				7F77E58720B7F2FE00682A15 /* dubaivideo.mp4 */,
+				7F9C6B7C20B1D3F0004B7968 /* travelplanner */,
+				7F9C6B7B20B1D3F0004B7968 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7F9C6B7B20B1D3F0004B7968 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7F9C6B7A20B1D3F0004B7968 /* travelplanner.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7F9C6B7C20B1D3F0004B7968 /* travelplanner */ = {
+			isa = PBXGroup;
+			children = (
+				7F9C6B7D20B1D3F0004B7968 /* AppDelegate.swift */,
+				7F9C6B7F20B1D3F0004B7968 /* ViewController.swift */,
+				7F77E57920B47A9B00682A15 /* travelVariables.swift */,
+				7F9C6B8120B1D3F0004B7968 /* Main.storyboard */,
+				7F77E59B20BAD66F00682A15 /* travelDestinations.swift */,
+				7F77E59720BAD05C00682A15 /* travelTblViewCell.swift */,
+				7F77E57F20B5B32500682A15 /* travelMainDiscoverController.swift */,
+				7F77E57B20B550BB00682A15 /* travelDiscoverController.swift */,
+				7FCC39B020B4227700E8C8B1 /* newTrip.swift */,
+				7F77E57D20B5553600682A15 /* newDestination.swift */,
+				7FCC39AE20B41D1A00E8C8B1 /* travelPlanAddView.swift */,
+				7FCC39AC20B41CB300E8C8B1 /* travelPlanView.swift */,
+				7FCC39AA20B31D6000E8C8B1 /* MainMenuView.swift */,
+				7FEDB34320B2E4CE00DC3514 /* QuestionnaireViewController.swift */,
+				7F9C6B8720B1D3F1004B7968 /* Assets.xcassets */,
+				7F9C6B8920B1D3F1004B7968 /* LaunchScreen.storyboard */,
+				7F9C6B8C20B1D3F1004B7968 /* Info.plist */,
+				7F9C6B8420B1D3F0004B7968 /* travelplanner.xcdatamodeld */,
+			);
+			path = travelplanner;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7F9C6B7920B1D3F0004B7968 /* travelplanner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F9C6B8F20B1D3F1004B7968 /* Build configuration list for PBXNativeTarget "travelplanner" */;
+			buildPhases = (
+				7F9C6B7620B1D3F0004B7968 /* Sources */,
+				7F9C6B7720B1D3F0004B7968 /* Frameworks */,
+				7F9C6B7820B1D3F0004B7968 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = travelplanner;
+			productName = travelplanner;
+			productReference = 7F9C6B7A20B1D3F0004B7968 /* travelplanner.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7F9C6B7220B1D3F0004B7968 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = Nemanja;
+				TargetAttributes = {
+					7F9C6B7920B1D3F0004B7968 = {
+						CreatedOnToolsVersion = 9.4;
+					};
+				};
+			};
+			buildConfigurationList = 7F9C6B7520B1D3F0004B7968 /* Build configuration list for PBXProject "travelplanner" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7F9C6B7120B1D3F0004B7968;
+			productRefGroup = 7F9C6B7B20B1D3F0004B7968 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7F9C6B7920B1D3F0004B7968 /* travelplanner */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7F9C6B7820B1D3F0004B7968 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F77E58920B7F34300682A15 /* australiavideo.mp4 in Resources */,
+				7F77E58A20B7F34300682A15 /* vietnamvideo.mp4 in Resources */,
+				7F77E58B20B7F34300682A15 /* russiavideo.mp4 in Resources */,
+				7F77E58C20B7F34300682A15 /* germanyvideo.mp4 in Resources */,
+				7F77E58D20B7F34300682A15 /* brazilvideo.mp4 in Resources */,
+				7F77E58E20B7F34300682A15 /* dubaivideo.mp4 in Resources */,
+				7F77E58220B5C56500682A15 /* chinavideo.mp4 in Resources */,
+				7F9C6B8B20B1D3F1004B7968 /* LaunchScreen.storyboard in Resources */,
+				7F9C6B8820B1D3F1004B7968 /* Assets.xcassets in Resources */,
+				7F9C6B8320B1D3F0004B7968 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7F9C6B7620B1D3F0004B7968 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FCC39AB20B31D6000E8C8B1 /* MainMenuView.swift in Sources */,
+				7FCC39B120B4227700E8C8B1 /* newTrip.swift in Sources */,
+				7F9C6B8020B1D3F0004B7968 /* ViewController.swift in Sources */,
+				7F9C6B8620B1D3F0004B7968 /* travelplanner.xcdatamodeld in Sources */,
+				7F77E59C20BAD66F00682A15 /* travelDestinations.swift in Sources */,
+				7FEDB34420B2E4CE00DC3514 /* QuestionnaireViewController.swift in Sources */,
+				7F9C6B7E20B1D3F0004B7968 /* AppDelegate.swift in Sources */,
+				7F77E57C20B550BB00682A15 /* travelDiscoverController.swift in Sources */,
+				7FCC39AD20B41CB300E8C8B1 /* travelPlanView.swift in Sources */,
+				7FCC39AF20B41D1A00E8C8B1 /* travelPlanAddView.swift in Sources */,
+				7F77E57E20B5553600682A15 /* newDestination.swift in Sources */,
+				7F77E57A20B47A9B00682A15 /* travelVariables.swift in Sources */,
+				7F77E58020B5B32500682A15 /* travelMainDiscoverController.swift in Sources */,
+				7F77E59820BAD05C00682A15 /* travelTblViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7F9C6B8120B1D3F0004B7968 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7F9C6B8220B1D3F0004B7968 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7F9C6B8920B1D3F1004B7968 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7F9C6B8A20B1D3F1004B7968 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7F9C6B8D20B1D3F1004B7968 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7F9C6B8E20B1D3F1004B7968 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7F9C6B9020B1D3F1004B7968 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = travelplanner/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Deakin.travelplanner;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		7F9C6B9120B1D3F1004B7968 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = travelplanner/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Deakin.travelplanner;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7F9C6B7520B1D3F0004B7968 /* Build configuration list for PBXProject "travelplanner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F9C6B8D20B1D3F1004B7968 /* Debug */,
+				7F9C6B8E20B1D3F1004B7968 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7F9C6B8F20B1D3F1004B7968 /* Build configuration list for PBXNativeTarget "travelplanner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F9C6B9020B1D3F1004B7968 /* Debug */,
+				7F9C6B9120B1D3F1004B7968 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		7F9C6B8420B1D3F0004B7968 /* travelplanner.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				7F9C6B8520B1D3F0004B7968 /* travelplanner.xcdatamodel */,
+			);
+			currentVersion = 7F9C6B8520B1D3F0004B7968 /* travelplanner.xcdatamodel */;
+			path = travelplanner.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 7F9C6B7220B1D3F0004B7968 /* Project object */;
+}
